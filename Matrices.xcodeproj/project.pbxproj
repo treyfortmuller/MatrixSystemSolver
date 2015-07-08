@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D012AC9175AA45000F1190F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D012AC8175AA45000F1190F /* UIKit.framework */; };
+		2D012ACB175AA45000F1190F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D012ACA175AA45000F1190F /* Foundation.framework */; };
+		2D012ACD175AA45000F1190F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D012ACC175AA45000F1190F /* CoreGraphics.framework */; };
+		2D012AD3175AA45000F1190F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D012AD1175AA45000F1190F /* InfoPlist.strings */; };
+		2D012AD5175AA45000F1190F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D012AD4175AA45000F1190F /* main.m */; };
+		2D012AD9175AA45000F1190F /* ALGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D012AD8175AA45000F1190F /* ALGAppDelegate.m */; };
+		2D012AE2175AA45000F1190F /* ALGFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D012AE1175AA45000F1190F /* ALGFirstViewController.m */; };
+		2D012AE9175AA45000F1190F /* ALGSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D012AE8175AA45000F1190F /* ALGSecondViewController.m */; };
+		2D012AF0175AA45000F1190F /* ALGFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D012AEE175AA45000F1190F /* ALGFirstViewController.xib */; };
+		2D012AF3175AA45000F1190F /* ALGSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D012AF1175AA45000F1190F /* ALGSecondViewController.xib */; };
+		2D7411DC18B8500D00AFBD8F /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7411DA18B8500D00AFBD8F /* second.png */; };
+		2D7411DD18B8500D00AFBD8F /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7411DB18B8500D00AFBD8F /* second@2x.png */; };
+		2D89914518B301A600C603A2 /* orangeback.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D89914418B301A600C603A2 /* orangeback.png */; };
+		2D91092118B5798500EE2BDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D91092018B5798500EE2BDD /* Images.xcassets */; };
+		2D91092318B5808700EE2BDD /* splot.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D91092218B5808700EE2BDD /* splot.png */; };
+		2D92A1ED175B161E002526E8 /* ALGThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D92A1EB175B161E002526E8 /* ALGThirdViewController.m */; };
+		2D92A1EE175B161E002526E8 /* ALGThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D92A1EC175B161E002526E8 /* ALGThirdViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D012AC5175AA45000F1190F /* Matrices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matrices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D012AC8175AA45000F1190F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D012ACA175AA45000F1190F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D012ACC175AA45000F1190F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D012AD0175AA45000F1190F /* Matrices-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Matrices-Info.plist"; sourceTree = "<group>"; };
+		2D012AD2175AA45000F1190F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D012AD4175AA45000F1190F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D012AD6175AA45000F1190F /* Matrices-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Matrices-Prefix.pch"; sourceTree = "<group>"; };
+		2D012AD7175AA45000F1190F /* ALGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALGAppDelegate.h; sourceTree = "<group>"; };
+		2D012AD8175AA45000F1190F /* ALGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALGAppDelegate.m; sourceTree = "<group>"; };
+		2D012AE0175AA45000F1190F /* ALGFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALGFirstViewController.h; sourceTree = "<group>"; };
+		2D012AE1175AA45000F1190F /* ALGFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALGFirstViewController.m; sourceTree = "<group>"; };
+		2D012AE7175AA45000F1190F /* ALGSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALGSecondViewController.h; sourceTree = "<group>"; };
+		2D012AE8175AA45000F1190F /* ALGSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALGSecondViewController.m; sourceTree = "<group>"; };
+		2D012AEF175AA45000F1190F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ALGFirstViewController.xib; sourceTree = "<group>"; };
+		2D012AF2175AA45000F1190F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ALGSecondViewController.xib; sourceTree = "<group>"; };
+		2D7411DA18B8500D00AFBD8F /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		2D7411DB18B8500D00AFBD8F /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		2D89914418B301A600C603A2 /* orangeback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeback.png; sourceTree = "<group>"; };
+		2D91092018B5798500EE2BDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2D91092218B5808700EE2BDD /* splot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splot.png; sourceTree = "<group>"; };
+		2D92A1EA175B161E002526E8 /* ALGThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALGThirdViewController.h; sourceTree = "<group>"; };
+		2D92A1EB175B161E002526E8 /* ALGThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALGThirdViewController.m; sourceTree = "<group>"; };
+		2D92A1EC175B161E002526E8 /* ALGThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALGThirdViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D012AC2175AA45000F1190F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D012AC9175AA45000F1190F /* UIKit.framework in Frameworks */,
+				2D012ACB175AA45000F1190F /* Foundation.framework in Frameworks */,
+				2D012ACD175AA45000F1190F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D012ABC175AA45000F1190F = {
+			isa = PBXGroup;
+			children = (
+				2D012ACE175AA45000F1190F /* Matrices */,
+				2D012AC7175AA45000F1190F /* Frameworks */,
+				2D012AC6175AA45000F1190F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D012AC6175AA45000F1190F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D012AC5175AA45000F1190F /* Matrices.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D012AC7175AA45000F1190F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D012AC8175AA45000F1190F /* UIKit.framework */,
+				2D012ACA175AA45000F1190F /* Foundation.framework */,
+				2D012ACC175AA45000F1190F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D012ACE175AA45000F1190F /* Matrices */ = {
+			isa = PBXGroup;
+			children = (
+				2D012AD7175AA45000F1190F /* ALGAppDelegate.h */,
+				2D012AD8175AA45000F1190F /* ALGAppDelegate.m */,
+				2D012AE0175AA45000F1190F /* ALGFirstViewController.h */,
+				2D012AE1175AA45000F1190F /* ALGFirstViewController.m */,
+				2D012AEE175AA45000F1190F /* ALGFirstViewController.xib */,
+				2D012AE7175AA45000F1190F /* ALGSecondViewController.h */,
+				2D012AE8175AA45000F1190F /* ALGSecondViewController.m */,
+				2D012AF1175AA45000F1190F /* ALGSecondViewController.xib */,
+				2D92A1EA175B161E002526E8 /* ALGThirdViewController.h */,
+				2D92A1EB175B161E002526E8 /* ALGThirdViewController.m */,
+				2D92A1EC175B161E002526E8 /* ALGThirdViewController.xib */,
+				2D7411DA18B8500D00AFBD8F /* second.png */,
+				2D7411DB18B8500D00AFBD8F /* second@2x.png */,
+				2D89914418B301A600C603A2 /* orangeback.png */,
+				2D91092218B5808700EE2BDD /* splot.png */,
+				2D91092018B5798500EE2BDD /* Images.xcassets */,
+				2D012ACF175AA45000F1190F /* Supporting Files */,
+			);
+			path = Matrices;
+			sourceTree = "<group>";
+		};
+		2D012ACF175AA45000F1190F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D012AD0175AA45000F1190F /* Matrices-Info.plist */,
+				2D012AD1175AA45000F1190F /* InfoPlist.strings */,
+				2D012AD4175AA45000F1190F /* main.m */,
+				2D012AD6175AA45000F1190F /* Matrices-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D012AC4175AA45000F1190F /* Matrices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D012AF6175AA45000F1190F /* Build configuration list for PBXNativeTarget "Matrices" */;
+			buildPhases = (
+				2D012AC1175AA45000F1190F /* Sources */,
+				2D012AC2175AA45000F1190F /* Frameworks */,
+				2D012AC3175AA45000F1190F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Matrices;
+			productName = Matrices;
+			productReference = 2D012AC5175AA45000F1190F /* Matrices.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D012ABD175AA45000F1190F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ALG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Trey Fortmuller";
+			};
+			buildConfigurationList = 2D012AC0175AA45000F1190F /* Build configuration list for PBXProject "Matrices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D012ABC175AA45000F1190F;
+			productRefGroup = 2D012AC6175AA45000F1190F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D012AC4175AA45000F1190F /* Matrices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D012AC3175AA45000F1190F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D012AD3175AA45000F1190F /* InfoPlist.strings in Resources */,
+				2D91092118B5798500EE2BDD /* Images.xcassets in Resources */,
+				2D89914518B301A600C603A2 /* orangeback.png in Resources */,
+				2D7411DC18B8500D00AFBD8F /* second.png in Resources */,
+				2D012AF0175AA45000F1190F /* ALGFirstViewController.xib in Resources */,
+				2D012AF3175AA45000F1190F /* ALGSecondViewController.xib in Resources */,
+				2D91092318B5808700EE2BDD /* splot.png in Resources */,
+				2D92A1EE175B161E002526E8 /* ALGThirdViewController.xib in Resources */,
+				2D7411DD18B8500D00AFBD8F /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D012AC1175AA45000F1190F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D012AD5175AA45000F1190F /* main.m in Sources */,
+				2D012AD9175AA45000F1190F /* ALGAppDelegate.m in Sources */,
+				2D012AE2175AA45000F1190F /* ALGFirstViewController.m in Sources */,
+				2D012AE9175AA45000F1190F /* ALGSecondViewController.m in Sources */,
+				2D92A1ED175B161E002526E8 /* ALGThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D012AD1175AA45000F1190F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D012AD2175AA45000F1190F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D012AEE175AA45000F1190F /* ALGFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D012AEF175AA45000F1190F /* en */,
+			);
+			name = ALGFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		2D012AF1175AA45000F1190F /* ALGSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D012AF2175AA45000F1190F /* en */,
+			);
+			name = ALGSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D012AF4175AA45000F1190F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Trey Fortmuller (4XYKM67X2L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Trey Fortmuller (4XYKM67X2L)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "E5C6E6D1-AB3E-48E2-9832-22698A96398B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E5C6E6D1-AB3E-48E2-9832-22698A96398B";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D012AF5175AA45000F1190F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Trey Fortmuller (4XYKM67X2L)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Trey Fortmuller (4XYKM67X2L)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "E5C6E6D1-AB3E-48E2-9832-22698A96398B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E5C6E6D1-AB3E-48E2-9832-22698A96398B";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D012AF7175AA45000F1190F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Trey Fortmuller (4XYKM67X2L)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Matrices/Matrices-Prefix.pch";
+				INFOPLIST_FILE = "Matrices/Matrices-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D012AF8175AA45000F1190F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Trey Fortmuller (4XYKM67X2L)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Matrices/Matrices-Prefix.pch";
+				INFOPLIST_FILE = "Matrices/Matrices-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D012AC0175AA45000F1190F /* Build configuration list for PBXProject "Matrices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D012AF4175AA45000F1190F /* Debug */,
+				2D012AF5175AA45000F1190F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D012AF6175AA45000F1190F /* Build configuration list for PBXNativeTarget "Matrices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D012AF7175AA45000F1190F /* Debug */,
+				2D012AF8175AA45000F1190F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D012ABD175AA45000F1190F /* Project object */;
+}
